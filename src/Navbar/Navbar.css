@@ -1,0 +1,101 @@
+.credNav{
+    background-color: black;
+    z-index: 6;
+}
+nav{
+    width: 98%;
+    margin: auto;
+}
+.credlogo{
+    width: 2.2rem;
+}
+.credLOGO{
+    flex-grow: .4;
+}
+.credNavUL{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.credNavUL li{
+    list-style: none;
+}
+.credNavUL li a {
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+}
+.credNavUL li button{
+    display: none;
+}
+@media (max-width:690px){
+    .credNav{
+        margin-top: -2%;
+        position: relative;
+        z-index: 6;
+    }
+    .credNav nav{
+        padding: 2%;
+    }
+    .credNavUL li:nth-child(2) {
+        display: none;
+    }
+    .credNavUL li:nth-child(3) {
+        display: none;
+    }
+    .credNavUL li:nth-child(4) {
+        display: none;
+    }
+    .credNavUL li:nth-child(5) {
+        display: none;
+    }
+    .credNavUL li:nth-child(1) {
+        display: block;
+    }
+    .credNavUL li:nth-child(6) {
+        margin-right: 2%;
+    }
+    .credNavUL li button{
+        list-style: none;
+        /* background-color: rgb(255, 255, 255); */
+       width: 3rem;
+       border-radius: 20px;
+       height: 3rem;
+       border: none;
+        display: block;
+    }
+    .toggleNav{
+        transition: all .5s ease-in-out;
+        height: 0px;
+    } 
+    .credNavUL2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .credNavUL2 li{
+        text-align: center;
+        list-style: none;
+        margin-bottom: 5%;
+    }
+    .credNavUL2 li a {
+        color: rgb(197, 197, 197);
+        text-decoration: none;
+    }
+    .navb{
+        width: 2rem;
+        background-color: rgb(122, 122, 122);
+        height: 5%;
+        margin-top: 12%;
+        transition: all .4s ease-in-out;
+    }
+    /* .navb:nth-child(1){
+         display: none;
+        }
+    .navb:nth-child(2){
+        transform: rotateZ(45deg);
+    }
+    .navb:nth-child(3){
+        margin-top: -5%;
+        transform: rotateZ(-45deg);
+   } */
+}

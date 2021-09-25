@@ -1,0 +1,109 @@
+.FifthComp{
+    position: relative;
+    z-index: 1440;
+    background-image: url("./bacl2.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.InnerFifth{
+    width: 70%;
+    margin-left: 5%;
+    position: absolute;
+    z-index: 1500;
+    background-color: transparent;
+    color: white;
+}
+.FifthHead{
+    background-color: transparent;
+    color: white;
+    font-size: 6rem;
+    margin-top: 2%;
+}
+.FifthHead2{
+    background-color: transparent;
+    color: white;
+    font-size:2.2rem;
+    margin-top: -12%;
+}
+.FifthHead3{
+    background-color: transparent;
+    color: white;
+    font-size:1.2rem;
+    margin-top: -2%;
+    margin-bottom: 5%;
+}
+@media (max-width:690px){
+    .InnerFifth{
+        width: 80%;
+        margin-left: 5%;
+        position: absolute;
+        z-index: 1500;
+        background-color: transparent;
+        color: white;
+    }
+    .FifthHead{
+        background-color: transparent;
+        color: white;
+        font-size: 4rem;
+        margin-top: 4%;
+    }
+    .FifthHead2{
+        background-color: transparent;
+        color: white;
+        font-size:2rem;
+        margin-top: -10%;
+    }
+    .FifthHead3{
+        background-color: transparent;
+        color: white;
+        font-size:1rem;
+        margin-bottom: 8%;
+    }
+}
+@media (max-width:500px){
+    .FifthHead{
+        background-color: transparent;
+        color: white;
+        font-size: 3rem;
+        margin-top: 4%;
+    }
+    .FifthHead2{
+        background-color: transparent;
+        color: white;
+        font-size:2rem;
+        margin-top: -10%;
+    }
+    .FifthHead3{
+        background-color: transparent;
+        color: white;
+        font-size:1rem;
+        margin-bottom: 12%;
+    }
+}
+@media (max-width:432px){
+    .FifthComp{
+        position: relative;
+        z-index: 1440;
+        background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg-mobile.jpg");
+        background-size: cover;
+        height: 100vh;
+    }
+    .FifthHead{
+        background-color: transparent;
+        color: white;
+        font-size:2.3rem;
+        margin-top: 4%;
+    }
+    .FifthHead2{
+        background-color: transparent;
+        color: white;
+        font-size:2rem;
+        margin-top: -10%;
+    }
+    .FifthHead3{
+        background-color: transparent;
+        color: white;
+        font-size:1rem;
+        margin-bottom: 12%;
+    }
+}

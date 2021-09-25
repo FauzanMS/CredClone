@@ -1,0 +1,141 @@
+.firstHead{
+    color: white;
+    font-size:6rem;
+    text-align: center;
+    line-height: 90%;
+    margin-top: 5%;
+    font-weight: 700;
+}
+.firstDiv{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.firstSubHead{
+    margin-top: -6%;
+    color: white;
+    text-align: center;
+    line-height: 90%;
+    margin-bottom: 3%;
+    font-weight:800;
+    font-size: 1.3rem;
+
+}
+.credBtn{
+    padding: 1.3rem 2rem;
+    width: 230px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    background-color: white;
+    color: black;
+    border-radius:50px;
+    text-align: center;
+    font-weight: 600;
+}
+@media (max-width:690px){
+    .firstHead{
+        color: white;
+        font-size:4rem;
+        text-align: center;
+        line-height: 90%;
+        margin-top: 5%;
+        font-weight: 700;
+    }
+    .firstDiv{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        align-items: center;
+    }
+    .firstSubHead{
+        margin-top: -6%;
+        color: white;
+        text-align: center;
+        line-height: 90%;
+        margin-bottom: 3%;
+        font-weight:800;
+        font-size: 1.3rem;
+    
+    }
+    .credBtn{
+        padding: 1.3rem 2rem;
+        width: 230px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        background-color: white;
+        color: black;
+        border-radius:50px;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+@media (max-width:500px){
+    .firstHead{
+        color: white;
+        font-size:3.4rem;
+        text-align: center;
+        line-height: 90%;
+        margin-top: 5%;
+        font-weight: 700;
+    }
+    .firstDiv{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        align-items: center;
+    }
+    .firstSubHead{
+        margin-top: -6%;
+        color: white;
+        text-align: center;
+        line-height: 90%;
+        margin-bottom: 3%;
+        font-weight:800;
+        font-size: 1.3rem;
+    
+    }
+    .credBtn{
+        padding: 1.3rem 2rem;
+        width: 180px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        background-color: white;
+        color: black;
+        border-radius:50px;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+@media (max-width:432px){
+    .firstHead{
+        color: white;
+        font-size:3.4rem;
+        text-align: center;
+        line-height: 90%;
+        margin-top: 25%;
+        font-weight: 700;
+    }
+    .credBtn{
+        padding: 1.3rem 1.4rem;
+        width: 180px;
+        text-decoration: none;
+        font-size: 1.1rem;
+        background-color: white;
+        color: black;
+        border-radius:50px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .firstDiv{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        align-items: center;
+        height: 70vh;
+    }
+}

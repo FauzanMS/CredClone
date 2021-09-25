@@ -1,0 +1,92 @@
+.ThirdComp{
+    position: relative;
+    z-index: 1440;
+    background-image: url("./back1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.InnerThird{
+    width: 70%;
+    margin-left: 5%;
+    position: absolute;
+    z-index: 1500;
+    background-color: transparent;
+    color: white;
+}
+.ThirdHead{
+    background-color: transparent;
+    color: white;
+    font-size: 6rem;
+    margin-top: 4%;
+}
+.ThirdHead2{
+    background-color: transparent;
+    color: white;
+    font-size:2.2rem;
+    margin-top: -10%;
+}
+.ThirdHead3{
+    background-color: transparent;
+    color: white;
+    font-size:1.2rem;
+    margin-bottom: 4%;
+}
+
+@media (max-width:690px){
+    .InnerThird{
+        width: 80%;
+        margin-left: 5%;
+        position: absolute;
+        z-index: 1500;
+        background-color: transparent;
+        color: white;
+    }
+    
+    .ThirdHead{
+        background-color: transparent;
+        color: white;
+        font-size: 4rem;
+        margin-top: 4%;
+    }
+    .ThirdHead2{
+        background-color: transparent;
+        color: white;
+        font-size:2rem;
+        margin-top: -10%;
+    }
+    .ThirdHead3{
+        background-color: transparent;
+        color: white;
+        font-size:1rem;
+        margin-bottom: 8%;
+    }
+}
+@media (max-width:500px){
+    .ThirdComp{
+        position: relative;
+        z-index: 1440;
+        background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg-mobile.jpg");
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+    .ThirdHead{
+        background-color: transparent;
+        color: white;
+        font-size: 3rem;
+        margin-top: 4%;
+    }
+    .ThirdHead2{
+        background-color: transparent;
+        color: white;
+        font-size:2rem;
+        margin-top: -10%;
+    }
+    .ThirdHead3{
+        background-color: transparent;
+        color: white;
+        font-size:1rem;
+        margin-bottom: 12%;
+    }
+}
