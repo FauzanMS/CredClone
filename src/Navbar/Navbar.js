@@ -27,21 +27,21 @@ export default function Navbar() {
       <nav>
         <ul className="credNavUL">
           <li className="credLOGO">
-            <a href="#">
-              <img src={credlogo} className="credlogo" />
+            <a href="/">
+              <img src={credlogo} alt="HI" className="credlogo" />
             </a>
           </li>
           <li>
-            <a href="#">credit score check</a>
+            <a href="/">credit score check</a>
           </li>
           <li>
-            <a href="#">credit card bill payment</a>
+            <a href="/">credit card bill payment</a>
           </li>
           <li>
-            <a href="#">blog</a>
+            <a href="/">blog</a>
           </li>
           <li>
-            <a href="#">we're hiring</a>
+            <a href="/">we're hiring</a>
           </li>
           <li>
             <button onClick={toggleNavbar}>
@@ -56,16 +56,16 @@ export default function Navbar() {
     <div className="toggleNav" style={style}>
         <ul className="credNavUL2">
           <li>
-            <a href="#">credit score check</a>
+            <a href="/">credit score check</a>
           </li>
           <li>
-            <a href="#">credit card bill payment</a>
+            <a href="/">credit card bill payment</a>
           </li>
           <li>
-            <a href="#">blog</a>
+            <a href="/">blog</a>
           </li>
           <li>
-            <a href="#">we're hiring</a>
+            <a href="/">we're hiring</a>
           </li>
         </ul>
       </div>

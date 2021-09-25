@@ -13,11 +13,11 @@ export default function SecondComp() {
     return (
         <div>
             <div className="FirstAnimator">
-                <img className="credMobile" data-aos="flip-right" src={left1}/>
-                <img className="credMobile" data-aos="flip-left" src={left2}/>
-                <img className="credMobile" data-aos="flip-right" src={center}/>
-                <img className="credMobile" data-aos="flip-left" src={right1}/>
-                <img className="credMobile" data-aos="flip-left" src={right2}/>
+                <img className="credMobile" alt="Hi" data-aos="flip-right" src={left1}/>
+                <img className="credMobile" alt="Hi" data-aos="flip-left" src={left2}/>
+                <img className="credMobile" alt="Hi" data-aos="flip-right" src={center}/>
+                <img className="credMobile" alt="Hi" data-aos="flip-left" src={right1}/>
+                <img className="credMobile" alt="Hi" data-aos="flip-left" src={right2}/>
             </div>
         </div>
     )

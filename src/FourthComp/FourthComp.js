@@ -5,7 +5,7 @@ export default function FourthComp() {
     return (
         <div className="FourthComp">
             <p className="FourthHead">rewards from brands you love.</p>
-            <img className="brands" src={brands}/>
+            <img className="brands" alt="Hi" src={brands}/>
         </div>
     )
 }

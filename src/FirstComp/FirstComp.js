@@ -8,7 +8,7 @@ export default function FirstComp() {
         <p className="firstSubHead">
           join 5.9M+ members and win rewards worth ₹5 crores daily.
         </p>
-        <a href="#" className="credBtn">
+        <a href="/" className="credBtn">
           Download CRED
         </a>
       </div>
